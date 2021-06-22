@@ -17,8 +17,8 @@ const Recipe = (props) => {
         </Row>
         <Row>
           <span>
-            <Badge className="subtitle">{props.dishtype}</Badge>
-            <Badge className="subtitle2">{props.cuisinetype}</Badge>
+            <Badge variant="secondary" className="subtitle">{props.dishtype}</Badge>
+            <Badge variant="success" className="subtitle2">{props.cuisinetype}</Badge>
           </span>
         </Row>
         <Card.Text>
