@@ -1,23 +1,74 @@
-import logo from './logo.svg';
+import React, { useEffect, useState } from 'react';
 import './App.css';
-
+import Recipe from './recipe';
+import { Navbar, Nav } from 'react-bootstrap';
+import Footer from './footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
+  const APP_ID = '9c53ef61';
+  const APP_KEY = '9adc5007ea55118eb3d99890a1d2dd9e';
+  const [recipes, setRecipes] = useState([]);
+  const [search, setSearch] = useState('');
+  const [query, setQuery] = useState('');
+  useEffect(() => {
+    getRecipes();
+  }, [query]);
+  const getRecipes = async () => {
+    const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`);
+
+    const data = await response.json();
+    setRecipes(data.hits);
+  };
+  const updateSearch = e => {
+    setSearch(e.target.value);
+  }
+  const getSearch = e => {
+    e.preventDefault();
+    setQuery(search);
+    setSearch('');
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar bg="light" variant="light" className="justify-content-between">
+        <Navbar.Brand>
+          <img
+            alt=""
+            src="https://uxrecipe.github.io/img/uxrecipe-logo.png"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />{' '}
+          Recipie
+        </Navbar.Brand>
+        <Nav className="mr-auto">
+          <Nav.Link>Home</Nav.Link>
+          <Nav.Link style={{ pointerEvents: 'none' }} active>Search </Nav.Link>
+          <Nav.Link>About</Nav.Link>
+          <Nav.Link>Case Study</Nav.Link>
+        </Nav>
+      </Navbar>
+      <form onSubmit={getSearch} className="search-form">
+        <input className="search-bar" type="text" placeholder="Happy Searching..." value={search} onChange={updateSearch} />
+        <button className="search-button" type="submit">Search</button>
+      </form>
+      <div className="recipes">
+        {recipes.map(recipe => (
+          <Recipe
+            key={recipe.recipe.label}
+            title={recipe.recipe.label}
+            calories={recipe.recipe.calories}
+            image={recipe.recipe.image}
+            ingredients={recipe.recipe.ingredients}
+            dishtype={recipe.recipe.dishType}
+            url={recipe.recipe.url}
+            yield={recipe.recipe.yield}
+            time={recipe.recipe.totalTime}
+            cuisinetype={recipe.recipe.cuisineType}
+
+          />
+        ))}
+      </div>
+      <Footer />
     </div>
   );
 }
