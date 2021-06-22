@@ -64,7 +64,6 @@ function App() {
             yield={recipe.recipe.yield}
             time={recipe.recipe.totalTime}
             cuisinetype={recipe.recipe.cuisineType}
-
           />
         ))}
       </div>
