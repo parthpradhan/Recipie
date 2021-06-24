@@ -49,7 +49,7 @@ function SearchNavbar() {
         <div className="navbar-translate">
           <Navbar.Brand
             data-placement="bottom"
-            href="/home"
+            href="https://parthpradhan.github.io/recipiehome/"
             target="_blank"
             title="Parth Pradhan"
           >
