@@ -24,7 +24,7 @@ const Recipe = (props) => {
         <Card.Text>
           <DropdownButton className="mt-3 noimg" key="right" id="dropdown-button-drop-right" title="Ingredients" drop="right">
             {props.ingredients.map(ingredient => (
-              <Dropdown.Item>{ingredient.text}</Dropdown.Item>
+              <Dropdown.Item >{ingredient.text}</Dropdown.Item>
             ))}
           </DropdownButton>
           <Row className="mt-4">
@@ -57,7 +57,7 @@ const Recipe = (props) => {
           </Row>
         </Card.Text>
       </Card.Body>
-      <Button className="btn"><a className="tag" href={props.url}>Read More</a></Button>
+      <Button className="btn" target="_blank" href={props.url}>Read More</Button>
     </Card>
 
   );
