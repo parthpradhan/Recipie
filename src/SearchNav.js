@@ -2,16 +2,10 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import classnames from "classnames";
-import { FaLinkedinIn,FaInstagram,FaBehance,FaGithub } from "react-icons/fa";
+
 import {
   Navbar,
-  Nav,
-  NavItem,
-  NavLink,
-  NavDropdown,
   Container,
-  Collapse,
-  Button
 } from 'react-bootstrap';
 function SearchNavbar() {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
@@ -50,7 +44,7 @@ function SearchNavbar() {
           <Navbar.Brand
             data-placement="bottom"
             href="https://parthpradhan.github.io/recipiehome/"
-            target="_blank"
+            rel="noopener noreferrer"
             title="Parth Pradhan"
           >
           Recipie React
