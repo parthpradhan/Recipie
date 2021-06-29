@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/Recipie/static/css/main.66485f2c.chunk.css",
-    "main.js": "/Recipie/static/js/main.175e3cbc.chunk.js",
-    "main.js.map": "/Recipie/static/js/main.175e3cbc.chunk.js.map",
-    "runtime-main.js": "/Recipie/static/js/runtime-main.9864a373.js",
-    "runtime-main.js.map": "/Recipie/static/js/runtime-main.9864a373.js.map",
-    "static/css/2.d01fe287.chunk.css": "/Recipie/static/css/2.d01fe287.chunk.css",
-    "static/js/2.e25ec405.chunk.js": "/Recipie/static/js/2.e25ec405.chunk.js",
-    "static/js/2.e25ec405.chunk.js.map": "/Recipie/static/js/2.e25ec405.chunk.js.map",
-    "static/js/3.0cf53cbe.chunk.js": "/Recipie/static/js/3.0cf53cbe.chunk.js",
-    "static/js/3.0cf53cbe.chunk.js.map": "/Recipie/static/js/3.0cf53cbe.chunk.js.map",
+    "main.js": "/Recipie/static/js/main.8f04f383.chunk.js",
+    "main.js.map": "/Recipie/static/js/main.8f04f383.chunk.js.map",
+    "runtime-main.js": "/Recipie/static/js/runtime-main.77e2dcde.js",
+    "runtime-main.js.map": "/Recipie/static/js/runtime-main.77e2dcde.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/Recipie/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.c1dd4bba.chunk.js": "/Recipie/static/js/2.c1dd4bba.chunk.js",
+    "static/js/2.c1dd4bba.chunk.js.map": "/Recipie/static/js/2.c1dd4bba.chunk.js.map",
+    "static/js/3.e1039598.chunk.js": "/Recipie/static/js/3.e1039598.chunk.js",
+    "static/js/3.e1039598.chunk.js.map": "/Recipie/static/js/3.e1039598.chunk.js.map",
     "index.html": "/Recipie/index.html",
-    "static/css/2.d01fe287.chunk.css.map": "/Recipie/static/css/2.d01fe287.chunk.css.map",
+    "static/css/2.61b4cb56.chunk.css.map": "/Recipie/static/css/2.61b4cb56.chunk.css.map",
     "static/css/main.66485f2c.chunk.css.map": "/Recipie/static/css/main.66485f2c.chunk.css.map",
-    "static/js/2.e25ec405.chunk.js.LICENSE.txt": "/Recipie/static/js/2.e25ec405.chunk.js.LICENSE.txt",
+    "static/js/2.c1dd4bba.chunk.js.LICENSE.txt": "/Recipie/static/js/2.c1dd4bba.chunk.js.LICENSE.txt",
     "static/media/search.7fca6816.gif": "/Recipie/static/media/search.7fca6816.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.9864a373.js",
-    "static/css/2.d01fe287.chunk.css",
-    "static/js/2.e25ec405.chunk.js",
+    "static/js/runtime-main.77e2dcde.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.c1dd4bba.chunk.js",
     "static/css/main.66485f2c.chunk.css",
-    "static/js/main.175e3cbc.chunk.js"
+    "static/js/main.8f04f383.chunk.js"
   ]
 }
