@@ -3,6 +3,25 @@
   padding: 0;
   margin: 0;
 }
+.image-container:hover .overlay {
+  opacity: 1;
+}
+.fav-btn {
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+.overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
 .App {
   min-height: 100vh;
   background-image: snow;
@@ -16,14 +35,18 @@
 }
 .search-bar {
   width: 55%;
-  border: #fda085 1px solid;
+  border: #d9534f 1px solid;
+  color: #d9534f;
+
   padding: 10px;
 }
 .search-button {
-  background: #fda085;
+  background: #d9534f;
   border: none;
   padding: 10px 20px;
   color: white;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
 }
 .recipes {
   min-height: 50vh;
