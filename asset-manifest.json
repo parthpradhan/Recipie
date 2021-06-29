@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Recipie/static/css/main.0349652f.chunk.css",
-    "main.js": "/Recipie/static/js/main.da344ba4.chunk.js",
-    "main.js.map": "/Recipie/static/js/main.da344ba4.chunk.js.map",
-    "runtime-main.js": "/Recipie/static/js/runtime-main.9537d817.js",
-    "runtime-main.js.map": "/Recipie/static/js/runtime-main.9537d817.js.map",
-    "static/css/2.61b4cb56.chunk.css": "/Recipie/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.c96900bd.chunk.js": "/Recipie/static/js/2.c96900bd.chunk.js",
-    "static/js/2.c96900bd.chunk.js.map": "/Recipie/static/js/2.c96900bd.chunk.js.map",
-    "static/js/3.2e60849b.chunk.js": "/Recipie/static/js/3.2e60849b.chunk.js",
-    "static/js/3.2e60849b.chunk.js.map": "/Recipie/static/js/3.2e60849b.chunk.js.map",
+    "main.css": "/Recipie/static/css/main.66485f2c.chunk.css",
+    "main.js": "/Recipie/static/js/main.175e3cbc.chunk.js",
+    "main.js.map": "/Recipie/static/js/main.175e3cbc.chunk.js.map",
+    "runtime-main.js": "/Recipie/static/js/runtime-main.9864a373.js",
+    "runtime-main.js.map": "/Recipie/static/js/runtime-main.9864a373.js.map",
+    "static/css/2.d01fe287.chunk.css": "/Recipie/static/css/2.d01fe287.chunk.css",
+    "static/js/2.e25ec405.chunk.js": "/Recipie/static/js/2.e25ec405.chunk.js",
+    "static/js/2.e25ec405.chunk.js.map": "/Recipie/static/js/2.e25ec405.chunk.js.map",
+    "static/js/3.0cf53cbe.chunk.js": "/Recipie/static/js/3.0cf53cbe.chunk.js",
+    "static/js/3.0cf53cbe.chunk.js.map": "/Recipie/static/js/3.0cf53cbe.chunk.js.map",
     "index.html": "/Recipie/index.html",
-    "static/css/2.61b4cb56.chunk.css.map": "/Recipie/static/css/2.61b4cb56.chunk.css.map",
-    "static/css/main.0349652f.chunk.css.map": "/Recipie/static/css/main.0349652f.chunk.css.map",
-    "static/js/2.c96900bd.chunk.js.LICENSE.txt": "/Recipie/static/js/2.c96900bd.chunk.js.LICENSE.txt",
+    "static/css/2.d01fe287.chunk.css.map": "/Recipie/static/css/2.d01fe287.chunk.css.map",
+    "static/css/main.66485f2c.chunk.css.map": "/Recipie/static/css/main.66485f2c.chunk.css.map",
+    "static/js/2.e25ec405.chunk.js.LICENSE.txt": "/Recipie/static/js/2.e25ec405.chunk.js.LICENSE.txt",
     "static/media/search.7fca6816.gif": "/Recipie/static/media/search.7fca6816.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.9537d817.js",
-    "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.c96900bd.chunk.js",
-    "static/css/main.0349652f.chunk.css",
-    "static/js/main.da344ba4.chunk.js"
+    "static/js/runtime-main.9864a373.js",
+    "static/css/2.d01fe287.chunk.css",
+    "static/js/2.e25ec405.chunk.js",
+    "static/css/main.66485f2c.chunk.css",
+    "static/js/main.175e3cbc.chunk.js"
   ]
 }
