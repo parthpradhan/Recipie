@@ -9,7 +9,7 @@ const RecipeList = (props) => {
   return (
     <>
     {props.recipes.map(recipe => (
-      <Card className="mt-3" style={{ width: '18rem', height: '41rem' }}>
+      <Card className="mt-3" style={{ width: '18rem', height: '43rem' }}>
       <Card.Img src={recipe.recipe.image} />
       <Card.Body>
         <Row>
@@ -59,7 +59,7 @@ const RecipeList = (props) => {
 						onClick={() => props.handleFavouritesClick(recipe)}
             className="d-flex align-items-center justify-content-center fav-btn"
 					>
-            <FavouriteComponent />
+            <FavouriteComponent/>
           </div>
       </Card.Body>
       <Button className="btn" target="_blank" href={recipe.recipe.url}>Read More</Button>

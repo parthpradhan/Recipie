@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import RecipeList from './recipe';
 import SearchHeader from './SearchHeader';
 import SearchNavbar from './SearchNav';
-import {Tab,Tabs} from 'react-bootstrap';
+import {Tab,Tabs,Container} from 'react-bootstrap';
 import AddFavourites from './components/addfavorites';
 import RemoveFavourites from './components/removefavorites';
+import searchpic from './img/search.gif'
 function Search() {
   const APP_ID = '9c53ef61';
   const APP_KEY = '9adc5007ea55118eb3d99890a1d2dd9e';
@@ -66,7 +68,7 @@ function Search() {
       <Tab eventKey="home" title="Search">
         <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" placeholder="Happy Searching..." value={search} onChange={updateSearch} />
-        <button className="search-button" type="submit">Search</button>
+        <button className="search-button" type="submit"><img src={searchpic} alt="search" /></button>
         </form>
         <div className="recipes">
         <RecipeList
@@ -77,6 +79,7 @@ function Search() {
         </div>
       </Tab>
       <Tab eventKey="profile" title="Saved Recipes">
+      <Container>
       <div className='row d-flex align-items-center mt-4 mb-4'>
 				<h1>Favourites</h1>
 			</div>
@@ -87,6 +90,8 @@ function Search() {
 					favouriteComponent={RemoveFavourites}
 				/>
 			</div>
+      </Container>
+    
       </Tab>
       </Tabs>
 

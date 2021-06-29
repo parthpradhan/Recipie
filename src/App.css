@@ -22,26 +22,38 @@
   padding: 20px;
   text-align: center;
 }
+.save:hover,
+.unsave:hover {
+  color: grey;
+}
 .App {
   min-height: 100vh;
   background-image: snow;
 }
 .search-form {
+  width: 55%;
   min-height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 2%;
+  border-bottom: #d9534f 1px solid;
 }
 .search-bar {
-  width: 55%;
-  border: #d9534f 1px solid;
+  width: 85%;
+  border: none;
   color: #d9534f;
 
   padding: 10px;
 }
+.search-bar:focus {
+  border: none;
+  outline: none;
+
+  padding: 10px;
+}
 .search-button {
-  background: #d9534f;
+  background: #fff;
   border: none;
   padding: 10px 20px;
   color: white;

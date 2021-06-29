@@ -1,10 +1,10 @@
-  
 import React from 'react';
-
+import '../App.css';
+import {MdDeleteSweep} from "react-icons/md";
 const RemoveFavourites = () => {
 	return (
 		<>
-			<span className='mr-2'>Remove from favourites</span>
+			<span className='lead unsave'>Unsave <MdDeleteSweep/></span>
 		</>
 	);
 };

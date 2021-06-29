@@ -1,9 +1,10 @@
 import React from 'react';
-
+import '../App.css';
+import { MdFavorite} from "react-icons/md";
 const AddFavourite = () => {
 	return (
 		<>
-			<span>Save Recipes</span>
+			<span className="lead save">Save Recipe <MdFavorite/></span>
 		</>
 	);
 };
