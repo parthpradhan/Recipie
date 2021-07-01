@@ -7,7 +7,7 @@ const RecipeList = (props) => {
 
   const FavouriteComponent = props.favouriteComponent;
   return (
-    <>
+  <>
     {props.recipes.map(recipe => (
       <Card className="mt-3" style={{ width: '18rem', height: '43rem' }}>
       <Card.Img src={recipe.recipe.image} />

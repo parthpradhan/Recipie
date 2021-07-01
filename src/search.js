@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import RecipeList from './recipe';
 import SearchHeader from './SearchHeader';
 import SearchNavbar from './SearchNav';
@@ -47,7 +49,7 @@ function Search() {
 	};
 
 	const addFavouriterecipe = (recipe) => {
-		const newFavouriteList = [...favourites, recipe];
+		const newFavouriteList = Array.from(new Set([...favourites, recipe]));
 		setFavourites(newFavouriteList);
 		saveToLocalStorage(newFavouriteList);
 	};
